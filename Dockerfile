@@ -1,6 +1,6 @@
 FROM myoung34/github-runner:ubuntu-jammy
 
-ARG GO_VERSION=1.26.2
+ARG GO_VERSION=1.25.0
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends npm bc jq direnv && \
