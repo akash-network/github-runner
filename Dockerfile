@@ -1,6 +1,6 @@
 FROM node:24 AS node
 
-FROM myoung34/github-runner:ubuntu-jammy
+FROM myoung34/github-runner:ubuntu-noble
 
 COPY --from=node /usr/local/bin /usr/local/bin
 COPY --from=node /usr/local/lib /usr/local/lib
