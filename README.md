@@ -20,7 +20,7 @@ ghcr.io/akash-network/github-runner
 
 ## Included Tools
 
-- All tools from the base `myoung34/github-runner:ubuntu-jammy` image
+- All tools from the base `myoung34/github-runner:ubuntu-noble` (Ubuntu 24.04) image
 - npm
 
 ## Releases
